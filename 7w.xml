@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>2.0</version>
+    <date>2016-03-15T13:29:17Z</date>
+    <groups>
+        <group>
+            <name>WEB</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>web_templ</template>
+            <name>web_templ</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>WEB</name>
+                </group>
+            </groups>
+            <applications/>
+            <items/>
+            <discovery_rules/>
+            <macros/>
+            <templates>
+                <template>
+                    <name>Template App FTP Service</name>
+                </template>
+                <template>
+                    <name>Template App HTTP Service</name>
+                </template>
+                <template>
+                    <name>Template App HTTPS Service</name>
+                </template>
+                <template>
+                    <name>Template App SSH Service</name>
+                </template>
+                <template>
+                    <name>Template ICMP Ping</name>
+                </template>
+                <template>
+                    <name>Template JMX Tomcat</name>
+                </template>
+                <template>
+                    <name>Template OS Linux</name>
+                </template>
+            </templates>
+            <screens/>
+        </template>
+    </templates>
+</zabbix_export>
